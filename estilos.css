@@ -1,0 +1,60 @@
+body
+{
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#h1fifa
+{
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#h2qatar
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: white;
+    text-align: center;
+}
+
+#imgqatar
+{
+    display: flex;
+    margin: auto;
+}
+
+#acordiones1
+{
+    margin-top: 116px;
+    margin-bottom: 700px;
+    margin-left: 50px;
+}
+
+#botonempezar
+{
+    margin-top: 100px;
+}
+
+#h1fixture
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    margin-top: 100px;
+}
+
+#hr1
+{
+    margin-top: 200px;
+}
+
+#h1grupos
+{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+}
