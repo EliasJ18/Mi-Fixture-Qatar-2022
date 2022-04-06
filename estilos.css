@@ -32,6 +32,7 @@ body
     margin-top: 116px;
     margin-bottom: 700px;
     margin-left: 50px;
+    border-color: chartreuse;
 }
 
 #botonempezar
@@ -57,4 +58,11 @@ body
     text-align: center;
     font-family: 'Aref Ruqaa', serif;
     color: rgb(206, 206, 0);
+}
+
+#acordiones2
+{
+    float: right;
+    margin-top: -914px;
+    margin-right: 50px;
 }
