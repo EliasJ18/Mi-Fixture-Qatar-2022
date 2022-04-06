@@ -27,14 +27,6 @@ body
     margin: auto;
 }
 
-#acordiones1
-{
-    margin-top: 116px;
-    margin-bottom: 700px;
-    margin-left: 50px;
-    border-color: chartreuse;
-}
-
 #botonempezar
 {
     margin-top: 100px;
@@ -60,9 +52,177 @@ body
     color: rgb(206, 206, 0);
 }
 
+.acordiones
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.dosacordiones
+{
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 25px;
+}
+
+
+#acordiones1
+{
+    margin-bottom: 100px;
+}
+
 #acordiones2
 {
-    float: right;
-    margin-top: -914px;
-    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+#Gqatar
+{
+    margin-top: -30px;
+}
+
+#Gecuador
+{
+    margin-top: -30px;
+}
+
+#Gsenegal
+{
+    margin-top: -30px;
+}
+
+#Gholanda
+{
+    margin-top: -30px;
+}
+
+#hrg
+{
+    margin-bottom: -39px;
+}
+
+#Ginglaterra
+{
+    margin-top: -30px;
+}
+
+#Giran
+{
+    margin-top: -30px;
+}
+
+#Gusa
+{
+    margin-top: -30px;
+}
+
+#Gargentina
+{
+    margin-top: -30px;
+}
+
+#Garabia
+{
+    margin-top: -30px;
+}
+
+#Gmexico
+{
+    margin-top: -30px;
+}
+
+#Gpolonia
+{
+    margin-top: -30px;
+}
+
+#Gfrancia
+{
+    margin-top: -30px;
+}
+
+#Gdinamarca
+{
+    margin-top: -30px;
+}
+
+#Gtunez
+{
+    margin-top: -30px;
+}
+
+#Gespaña
+{
+    margin-top: -30px;
+}
+
+#Galemania
+{
+    margin-top: -30px;
+}
+
+#Gjapon
+{
+    margin-top: -30px;
+}
+
+#Gbelgica
+{
+    margin-top: -30px;
+}
+
+#Gcanada
+{
+    margin-top: -30px;
+}
+
+#Gmarruecos
+{
+    margin-top: -30px;
+}
+
+#Gcroacia
+{
+    margin-top: -30px;
+}
+
+#Gbrasil
+{
+    margin-top: -30px;
+}
+
+#Gserbia
+{
+    margin-top: -30px;
+}
+
+#Gsuiza
+{
+    margin-top: -30px;
+}
+
+#Gcamerun
+{
+    margin-top: -30px;
+}
+
+#Gportugal
+{
+    margin-top: -30px;
+}
+
+#Gghana
+{
+    margin-top: -30px;
+}
+
+#Guruguay
+{
+    margin-top: -30px;
+}
+
+#Gkorea
+{
+    margin-top: -30px;
 }
