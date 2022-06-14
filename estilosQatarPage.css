@@ -50,31 +50,21 @@ body
     text-align: center;
     font-family: 'Aref Ruqaa', serif;
     color: rgb(206, 206, 0);
+    margin-bottom: 100px;
 }
 
 .acordiones
 {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 50px;
     margin-right: 25px;
 }
 
 .dosacordiones
 {
-    margin-top: 100px;
-    margin-right: 50px;
-    margin-left: 25px;
-}
-
-
-#acordiones1
-{
-    margin-bottom: 100px;
-}
-
-#acordiones2
-{
-    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 50px;
 }
 
 #Gqatar
@@ -225,4 +215,89 @@ body
 #Gkorea
 {
     margin-top: -30px;
+}
+
+#h1octavos
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+#acordionOctavos
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#acordionOctavos2
+{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#hr2
+{
+    margin-top: 90px;
+}
+
+#h1cuartos
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+#hr3
+{
+    margin-top: 90px;
+}
+
+#acordionCuartos
+{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#h1semis
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+#h1final
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+#acordionFinales
+{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#h1Tercero
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+#acordionTercero
+{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 200px;
 }

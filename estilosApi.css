@@ -1,0 +1,25 @@
+.jugadoresNom
+{
+    margin-left: 40px;
+}
+
+.frenkiePic
+{
+    margin-left: 15px;
+    width: 260px;
+    height: 300px;
+    display: flex;
+    justify-content:start;
+    background-color: black;
+}
+
+.memphisPic
+{
+    margin-left: 15px;
+    width: 260px;
+    height: 300px;
+    display: flex;
+    justify-content:start;
+    background-color: black;
+}
+

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css -->
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilosQatarPage.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- google fonts FIFA -->
@@ -18,17 +18,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap" rel="stylesheet">
     <!-- Scroll Reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Icono -->
+    <link rel="icon" href="imagenes/QatarLogo.png">
     <title>Copa Del Mundo 2022 | Fixture</title>
 </head>
 <body>
 
-    <audio autoplay src="audio/Qcancion.mp3"></audio>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="tituloNav" href="#"><b>FWC Qatar 2022</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#titulo">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Plantillas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Jugadores.html">Jugadores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Estadios y Ciudades</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Desarrolladores
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Elías Joyas</a></li>
+              <li><a class="dropdown-item" href="#">Javier Palacio</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <!-- <audio autoplay><source src="audio/Qcancion.mp3" type="audio/mpeg"></audio> -->
 
     <div class="container">
-        <h1 class="fifa" id="h1fifa">FIFA WORLD CUP</h1>
-        <img class="qatarCup" id="imgqatar" src="imagenes/QatarLogo.png" alt="">
+      
+        <h1 class="fifa" id="h1fifa" ><a id="titulo">FIFA WORLD CUP</a></h1>
+        <img class="qatarCup" id="imgqatar" src="imagenes/QatarLogo.png" alt="QatarLogo">
         <h2 class="qatar" id="h2qatar">QATAR 2022</h2>
-        <h1 id="h1fixture" class="fix text-center">EL FIXTURE COMPLETO DEL EVENTO MAS ESPERADO</h1>
+        <h1 id="h1fixture" class="fix text-center">EL FIXTURE COMPLETO DEL EVENTO MÁS ESPERADO</h1>
         <div class="d-grid gap-2">
         <a href="#hr1" id="botonempezar" class="bempezar btn btn-outline-warning" type="button">Empezar</a>
         </div>
@@ -46,11 +85,11 @@
         <div class="acordiones accordion" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="bg-warning accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                <button class="bg-warning accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                   GRUPO A
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                 <div class="accordion-body">
                  <img id="flagqatar" style="width: 5%;" src="imagenes/QatarFlag.png" alt="-QatarFlag"> <h6 id="Gqatar" class="text-center">QATAR</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/EcuadorFlag.png" alt="-EcuadorFlag"> <h6 id="Gecuador" class="text-center">ECUADOR</h6> <hr id="hrg"> <br> <br> <img class="senegalFlag" style="width: 4.8%;" src="imagenes/SenegalFlag.png" alt="-SenegalFlag"> <h6 id="Gsenegal" class="text-center">SENEGAL</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/HolandaFlag.png" alt="-HolandaFlag"> <h6 id="Gholanda" class="text-center">PAISES BAJOS</h6>
                 </div>
@@ -58,11 +97,11 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                <button style="background-color: rgb(211, 211, 0);" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <button style="background-color: rgb(211, 211, 0);" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                   GRUPO B
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
                 <div class="accordion-body">
                 <img style="width: 5%;" src="imagenes/InglaterraFlag.png" alt="-InglaterraFlag">  <h6 id="Ginglaterra" class="text-center">INGLATERRA</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/IranFlag.png" alt="-IranFlag"> <h6 id="Giran" class="text-center">IRÁN</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/UsaFlag.png" alt="-UsaFlag"> <h6 id="Gusa" class="text-center">ESTADOS UNIDOS</h6> <hr id="hrg"> <br> <br> <h6 id="Geplayoff1" class="text-center">(Euro Play-Off)</h6>
                 </div>
@@ -70,11 +109,11 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                <button style="background-color: rgb(179, 179, 0);" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <button style="background-color: rgb(179, 179, 0);" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                   GRUPO C
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
                 <div class="accordion-body">
                 <img style="width: 5%;" src="imagenes/ArgentinaFlag.png" alt="-ArgentinaFlag"> <h6 id="Gargentina" class="text-center">ARGENTINA</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/ArabiaFlag.png" alt="-ArabiaFlag"> <h6 id="Garabia" class="text-center">ARABIA SAUDITA</h6> <hr id="hrg"> <br> <br> <img style="width: 5.3%;" src="imagenes/MexicoFlag.png" alt="-MexicoFlag"> <h6 id="Gmexico" class="text-center">MÉXICO</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/PoloniaFlag.png" alt="-PoloniaFlag"> <h6 id="Gpolonia" class="text-center">POLONIA</h6>
                 </div>
@@ -82,11 +121,11 @@
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                  <button style="background-color: rgb(151, 151, 0);" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                  <button style="background-color: rgb(151, 151, 0);" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
                     GRUPO D
                   </button>
                 </h2>
-                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
                   <div class="accordion-body">
                   <img style="width: 5%;" src="imagenes/FranciaFlag.png" alt="-FranciaFlag">  <h6 id="Gfrancia" class="text-center">FRANCIA</h6> <hr id="hrg"> <br> <br> <h6 id="Giplayoff1" class="text-center">(IC Play-off)</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/DinamarcaFlag.png" alt="-DinamarcaFlag"> <h6 id="Gdinamarca" class="text-center">DINAMARCA</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/TunezFlag.png" alt="-TúnezFlag"> <h6 id="Gtunez" class="text-center">TÚNEZ</h6>
                   </div>
@@ -101,11 +140,11 @@
      <div class="dosacordiones accordion" id="accordionPanelsStayOpenExample">
         <div class="2acordiones accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingFive">
-            <button class="bg-warning accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+            <button class="bg-warning accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
               GRUPO E
             </button>
           </h2>
-          <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+          <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFive">
             <div class="accordion-body">
             <img style="width: 5%;" src="imagenes/EspañaFlag.png" alt="-EspañaFlag">  <h6 id="Gespaña" class="text-center">ESPAÑA</h6> <hr id="hrg"> <br> <br> <h6 id="Giplayoff2" class="text-center">(IC Play-off)</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/AlemaniaFlag.png" alt="-AlemaniaFlag"> <h6 id="Galemania" class="text-center">ALEMANIA</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/JaponFlag.png" alt="-JaponFlag"> <h6 id="Gjapon" class="text-center">JAPÓN</h6>
             </div>
@@ -113,11 +152,11 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingSix">
-            <button style="background-color: rgb(211, 211, 0);" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+            <button style="background-color: rgb(211, 211, 0);" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
               GRUPO F
             </button>
           </h2>
-          <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+          <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingSix">
             <div class="accordion-body">
             <img style="width: 5%;" src="imagenes/BelgicaFlag.png" alt="-BelgicaFlag">  <h6 id="Gbelgica" class="text-center">BELGICA</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/CanadaFlag.png" alt="-CanadaFlag"> <h6 id="Gcanada" class="text-center">CANADÁ</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/MarruecosFlag.png" alt="-MarruecosFlag"> <h6 id="Gmarruecos" class="text-center">MARRUECOS</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/CroaciaFlag.png" alt="-CroaciaFlag"> <h6 id="Gcroacia" class="text-center">CROÁCIA</h6>
             </div>
@@ -125,11 +164,11 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
-            <button style="background-color: rgb(179, 179, 0);" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+            <button style="background-color: rgb(179, 179, 0);" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
               GRUPO G
             </button>
           </h2>
-          <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+          <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingSeven">
             <div class="accordion-body">
             <img style="width: 5%;" src="imagenes/BrasilFlag.png" alt="-BrasilFlag">  <h6 id="Gbrasil" class="text-center">BRASIL</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/SerbiaFlag.png" alt="-SerbiaFlag"> <h6 id="Gserbia" class="text-center">SERBIA</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/SuizaFlag.png" alt="-SuizaFlag"> <h6 id="Gsuiza" class="text-center">SUIZA</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/CamerunFlag.png" alt="-CamerunFlag"> <h6 id="Gcamerun" class="text-center">CAMERÚN</h6>
             </div>
@@ -137,11 +176,11 @@
         </div>
         <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingEight">
-              <button style="background-color: rgb(151, 151, 0);" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+              <button style="background-color: rgb(151, 151, 0);" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
                 GRUPO H
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
+            <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingEight">
               <div class="accordion-body">
               <img style="width: 5%;" src="imagenes/PortugalFlag.png" alt="-PortugalFlag">  <h6 id="Gportugal" class="text-center">PORTUGAL</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/GhanaFlag.png" alt="-GhanaFlag"> <h6 id="Gghana" class="text-center">GHANA</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/UruguayFlag.png" alt="-UruguayFlag"> <h6 id="Guruguay" class="text-center">URUGUAY</h6> <hr id="hrg"> <br> <br> <img style="width: 5%;" src="imagenes/KoreaFlag.png" alt="-KoreaFlag"> <h6 id="Gkorea" class="text-center">REPUBLICA DE KOREA</h6>
               </div>
@@ -152,7 +191,133 @@
     </div>
   <!-- </div> -->
     </header>
-     
+    
+    <hr id="hr2">
+
+    <!-- Seccion Octavos -->
+
+    <h1 id="h1octavos" class="text-center">OCTAVOS DE FINAL</h1>
+
+    <div id="acordionOctavos" class="text-center accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+          <button class="bg-warning accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
+            PRIMERA LLAVE DE OCTAVOS
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingNine">
+          <div class="accordion-body">
+           <h6 style="float: left;">SAB 3/12 - 12:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 125px;">1ro GRUPO A<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">2do GRUPO B</h6></h6>  <hr> <h6 style="float: left;">SAB 3/12 - 16:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 125px;">1ro GRUPO C<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">2do GRUPO D</h6></h6> <hr> <h6 style="float: left;">DOM 4/12 - 12:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 114px;">1ro GRUPO D<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">2do GRUPO C</h6></h6> <hr> <h6 style="float: left;">DOM 4/12 - 16:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 115px;">1ro GRUPO B<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">2do GRUPO A</h6></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+      <div id="acordionOctavos2" class="text-center accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+            <button class="bg-warning accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="true" aria-controls="panelsStayOpen-collapseTen">
+             SEGUNDA LLAVE DE OCTAVOS 
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTen">
+            <div class="accordion-body">
+              <h6 style="float: left;">LUN 5/12 - 12:00 HS</h6><h6 style="display: inline; float: left; margin-left: 120px;">1ro GRUPO E<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">2do GRUPO F</h6></h6> <hr> <h6 style="float: left;">LUN 5/12 - 16:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 120px;">1ro GRUPO G<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">2do GRUPO H</h6></h6> <hr><h6 style="float: left;">MAR 6/12 - 12:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 115px;">1ro GRUPO F<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">2do GRUPO E</h6></h6> <hr> <h6 style="float: left;">MAR 4/12 - 16:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 115px;">1ro GRUPO H<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">2do GRUPO G</h6></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="hr3">
+
+      <!-- Seccion Cuartos -->
+      
+      <h1 id="h1cuartos" class="text-center">CUARTOS DE FINAL</h1>
+
+      <div id="acordionCuartos" class="text-center accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingEleven">
+            <button class="bg-warning accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="true" aria-controls="panelsStayOpen-collapseEleven">
+              LLAVE DE CUARTOS
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingEleven">
+            <div class="accordion-body">
+             <h6 style="float: left;">VIE 9/12 - 12:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 125px;">POR DEFINIRSE<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">POR DEFINIRSE</h6></h6> <hr> <h6 style="float: left;">VIE 9/12 - 16:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 125px;">POR DEFINIRSE<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">POR DEFINIRSE</h6></h6> <hr> <h6 style="float: left;">SAB 10/12 - 12:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 114px;">POR DEFINIRSE<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">POR DEFINIRSE</h6></h6> <hr> <h6 style="float: left;">SAB 10/12 - 16:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 115px;">POR DEFINIRSE<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">POR DEFINIRSE</h6></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="hr3">
+
+      <!-- Seccion semifinales -->
+
+      <h1 id="h1semis" class="text-center">SEMIFINALES</h1>
+
+      <div id="acordionCuartos" class="text-center accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwelve">
+            <button class="bg-warning accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwelve" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwelve">
+              LLAVE DE SEMIS
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwelve" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwelve">
+            <div class="accordion-body">
+             <h6 style="float: left;">MAR 13/12 - 16:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 118px;">POR DEFINIRSE<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">POR DEFINIRSE</h6></h6> <hr> <h6 style="float: left;">MIE 14/12 - 16:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 125px;">POR DEFINIRSE<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">POR DEFINIRSE</h6></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="hr3">
+
+      <!-- Seccion Final -->
+
+      <h1 id="h1final" class="text-center">FINALES</h1>
+
+      <div id="acordionFinales" class="text-center accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThirteen">
+            <button class="bg-warning accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThirteen" aria-expanded="true" aria-controls="panelsStayOpen-collapseThirteen">
+              FINAL COPA DEL MUNDO
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThirteen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThirteen">
+            <div class="accordion-body">
+             <h6 style="float: left;">DOM 18/12 - 12:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 118px;">POR DEFINIRSE<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">POR DEFINIRSE</h6></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr id="hr3">
+
+      <!-- Seccion tercer puesto -->
+
+      <h1 id="h1Tercero" class="text-center">TERCER PUESTO</h1>
+
+      <div id="acordionTercero" class="text-center accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFourteen">
+            <button class="bg-warning accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFourteen" aria-expanded="true" aria-controls="panelsStayOpen-collapseFourteen">
+              TERCER PUESTO
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFourteen" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFourteen">
+            <div class="accordion-body">
+             <h6 style="float: left;">SAB 17/12 - 12:00 HS</h6> <h6 style="display: inline; float: left; margin-left: 118px;">POR DEFINIRSE<h6 style="display: inline; text-align: center;">VS</h6><h6 style="display: inline; float: right; margin-right: 15%;">POR DEFINIRSE</h6></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+
+    <!-- <p class="ms-1" id="listApi2"></p> -->
+
+
 
     <!-- scripts bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -176,7 +341,7 @@
 
     sr.reveal('.qatar', {
         duration: 2000,
-        origin: 'right',
+        origin: 'top',
         distance: '300px',
         delay: 1000
     });
