@@ -1,25 +1,43 @@
-.jugadoresNom
+#jugSaadAlSheeb1,
+#jugAlmoezAli2,
+#jugHernánGalíndez3,
+#jugEnnerValencia4,
+#jugEdouardMendy5,
+#jugSadioMané6,
+#jugFrenkiedeJong7,
+#jugMemphisDepay8,
+#jugEmilianoMartinez9,
+#jugLionelMessi10
 {
-    margin-left: 40px;
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
-.frenkiePic
+#imgSaadAlSheeb1,
+#imgAlmoezAli2,
+#imgHernánGalíndez3,
+#imgEnnerValencia4,
+#imgEdouardMendy5,
+#imgSadioMané6,
+#imgFrenkiedeJong7,
+#imgMemphisDepay8,
+#imgEmilianoMartinez9,
+#imgLionelMessi10
 {
-    margin-left: 15px;
-    width: 260px;
-    height: 300px;
-    display: flex;
-    justify-content:start;
-    background-color: black;
+    background-color: #941127;
+    margin-left: 10px;
+    width: 300px;
+    height: 350px;
 }
 
-.memphisPic
+#city
 {
-    margin-left: 15px;
-    width: 260px;
-    height: 300px;
-    display: flex;
-    justify-content:start;
-    background-color: black;
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(196, 196, 196);
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
