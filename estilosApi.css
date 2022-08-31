@@ -39,5 +39,87 @@
     color: rgb(196, 196, 196);
     margin-left: 10px;
     margin-top: 20px;
+    text-align: center;
+}
+
+#teamStats1
+{
+    color: rgb(196, 196, 196);
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#stadiums
+{
+    color: rgb(196, 196, 196);
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#posSaadAlSheeb1,
+#posAlmoezAli2,
+#posHernánGalíndez3,
+#posEnnerValencia4,
+#posEdouardMendy5,
+#posSadioMané6,
+#posFrenkiedeJong7,
+#posMemphisDepay8,
+#posEmilianoMartinez9,
+#posLionelMessi10
+{
+    text-align: center;
+    /* display: inline; */
+    margin-left: 30px;
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+}
+
+#clubSaadAlSheeb1,
+#clubAlmoezAli2,
+#clubHernánGalíndez3,
+#clubEnnerValencia4,
+#clubEdouardMendy5,
+#clubSadioMané6,
+#clubFrenkiedeJong7,
+#clubMemphisDepay8,
+#clubEmilianoMartinez9,
+#clubLionelMessi10
+{
+    text-align: center;
+    /* display: inline; */
+    margin-left: 30px;
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+}
+
+.accordion-item
+{
+    text-align: center;
+}
+
+#partido1,
+#partido2,
+#partido3
+{
+    text-align: center;
+}
+
+#ArgFlag,
+#QatarFlag,
+#EspañaFlag
+{
+    margin-right: 10px;
+    width: 40px;
+    height: 30px;
+}
+#PoloniaFlag,
+#EcuadorFlag,
+#AlemaniaFlag
+{
+    margin-left: 10px;
+    width: 40px;
+    height: 30px;
 }
 

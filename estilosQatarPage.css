@@ -67,155 +67,39 @@ body
     margin-left: 50px;
 }
 
-#Gqatar
-{
-    margin-top: -30px;
-}
-
-#Gecuador
-{
-    margin-top: -30px;
-}
-
-#Gsenegal
-{
-    margin-top: -30px;
-}
-
-#Gholanda
-{
-    margin-top: -30px;
-}
-
-#hrg
-{
-    margin-bottom: -39px;
-}
-
-#Ginglaterra
-{
-    margin-top: -30px;
-}
-
-#Giran
-{
-    margin-top: -30px;
-}
-
-#Gusa
-{
-    margin-top: -30px;
-}
-
-#Gargentina
-{
-    margin-top: -30px;
-}
-
-#Garabia
-{
-    margin-top: -30px;
-}
-
-#Gmexico
-{
-    margin-top: -30px;
-}
-
-#Gpolonia
-{
-    margin-top: -30px;
-}
-
-#Gfrancia
-{
-    margin-top: -30px;
-}
-
-#Gdinamarca
-{
-    margin-top: -30px;
-}
-
-#Gtunez
-{
-    margin-top: -30px;
-}
-
-#Gespaña
-{
-    margin-top: -30px;
-}
-
-#Galemania
-{
-    margin-top: -30px;
-}
-
-#Gjapon
-{
-    margin-top: -30px;
-}
-
-#Gbelgica
-{
-    margin-top: -30px;
-}
-
-#Gcanada
-{
-    margin-top: -30px;
-}
-
-#Gmarruecos
-{
-    margin-top: -30px;
-}
-
-#Gcroacia
-{
-    margin-top: -30px;
-}
-
-#Gbrasil
-{
-    margin-top: -30px;
-}
-
-#Gserbia
-{
-    margin-top: -30px;
-}
-
-#Gsuiza
-{
-    margin-top: -30px;
-}
-
-#Gcamerun
-{
-    margin-top: -30px;
-}
-
-#Gportugal
-{
-    margin-top: -30px;
-}
-
-#Gghana
-{
-    margin-top: -30px;
-}
-
-#Guruguay
-{
-    margin-top: -30px;
-}
-
+#Gqatar,
+#Gecuador,
+#Gsenegal,
+#Gholanda,
+#Ginglaterra,
+#Giran,
+#Gusa,
+#Gargentina,
+#Garabia,
+#Gmexico,
+#Gpolonia,
+#Gfrancia,
+#Gdinamarca,
+#Gtunez,
+#Gespaña,
+#Galemania,
+#Gjapon,
+#Gbelgica,
+#Gcanada,
+#Gmarruecos,
+#Gcroacia,
+#Gbrasil,
+#Gserbia,
+#Gsuiza,
+#Gcamerun,
+#Gportugal,
+#Gghana,
+#Guruguay,
 #Gkorea
 {
     margin-top: -30px;
 }
+
 
 #h1octavos
 {
@@ -299,7 +183,7 @@ body
     margin-top: 60px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 100px;   
 }
 
 #tituloCiudades
@@ -309,4 +193,46 @@ body
     text-align: center;
     margin-bottom: 100px;
     margin-top: 10px;
+}
+
+#tituloEstTotEquipos
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+#tituloEstadios
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+#divPartidos
+{
+    background: url(Background-images/FondoBlanco.jpg);
+
+}
+
+#tituloPartidos
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#tituloJug
+{
+    font-family: 'Aref Ruqaa', serif;
+    color: rgb(206, 206, 0);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
